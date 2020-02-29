@@ -1,6 +1,8 @@
 [flake8]
 exclude =
+    .idea,
+    .git,
     migrations,
     __pycache__,
     manage.py,
-    setting.py
+    settings.py
